@@ -53,6 +53,7 @@ section{
     height: 100%;
     background-position: center;  
     object-fit: cover;  
+    background-size: cover;
     background-repeat: no-repeat;
     
 
@@ -157,11 +158,12 @@ section{
     
     background-position: center;  
     object-fit: cover;  
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-.location_vladimir{
-    background-image: url(../img/vladimir.png);
+.location_zolotii_vorota{
+    background-image: url(../img/zolotii_vorota.png);
 }
 
 .item_location > div{
