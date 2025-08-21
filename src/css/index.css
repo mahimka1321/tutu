@@ -141,12 +141,12 @@ section{
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* see notes below */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* see notes below */
     grid-gap: 1em;
 }
 
 .item_location{
-    max-width: 220px;
+    max-width: 180px;
     min-width: 150px;
     width: 100%;
     padding: 8px;
@@ -161,7 +161,7 @@ section{
 }
 
 .location_vladimir{
-    background-image: url(/src/img/vladimir.png);
+    background-image: url(../img/vladimir.png);
 }
 
 .item_location > div{
