@@ -125,9 +125,10 @@ section{
 }
 
 .languages{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     top: 0;
+    left: 0;
     background-color: #F0F0F0;
 
     max-width: 768px;
@@ -143,7 +144,6 @@ section{
 }
 
 .button-X{
-    position: fixed;
     background: none;
     border: none;
 
