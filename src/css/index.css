@@ -106,19 +106,19 @@ section{
 }
 
 .history_location > h2{
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 12px;
     font-weight: 600;
 }
 
 .history_location > p{
-    font-size: 12px;
+    font-size: 14px;
 
     font-weight: 400;
 }
 
 .route_location > h2{
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 12px;
     font-weight: 600;
     color: #3F444B;
