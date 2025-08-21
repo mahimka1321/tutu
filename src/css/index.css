@@ -141,7 +141,7 @@ section{
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* see notes below */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* see notes below */
     grid-gap: 1em;
 }
 
@@ -175,7 +175,21 @@ section{
     display: flex;
     align-items: center;
 
-    margin-top: 91%;
+    margin-top: 190px;
+}
+
+@media (max-width: 425px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* see notes below */
+        grid-gap: 1em;
+    }
+
+    .item_location{
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+    }
 }
 
 
