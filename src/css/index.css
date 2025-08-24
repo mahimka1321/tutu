@@ -88,7 +88,7 @@ section{
     font-weight: 600;
 }
 
-.name_location > button{
+.buttonop_op{
     text-decoration: underline;
     background: none;
     border: none;
@@ -160,6 +160,8 @@ section{
     object-fit: cover;  
     background-size: cover;
     background-repeat: no-repeat;
+
+    cursor: pointer;
 }
 
 .location_zolotii_vorota{
@@ -180,19 +182,7 @@ section{
     margin-top: 190px;
 }
 
-@media (max-width: 425px) {
-    .wrapper{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* see notes below */
-        grid-gap: 1em;
-    }
 
-    .item_location{
-        max-width: 100%;
-        min-width: 100%;
-        width: 100%;
-    }
-}
 
 
 .item_location > div > h2{
@@ -242,11 +232,21 @@ section{
     display: grid;
 }
 
+.btn__in_container
+{
+    display: flex;
+    padding-bottom: 20px;
+}
+
 .button-ln{
+
+    
     background: none;
     border: none;
+
+    cursor: pointer;
     
-    margin: 0 auto;
+    margin: 10px;
 
     max-width: 380px;
     min-width: 200px;
@@ -262,14 +262,51 @@ section{
     border: 2px solid #C9C7BE;
 
     cursor: pointer;
+    
+    margin-bottom: 10px;
+}
+
+.button-ln-video
+{
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+    
+    margin: 10px;
+
+    max-width: 380px;
+    min-width: 200px;
+    width: 100%;
+
+    height: 60px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    border-radius: 20px;
+
+    background: #9BA5B7;
+    color: #F0F0F0;
+
+    cursor: pointer;
 
     margin-bottom: 10px;
+}
+
+.button-ln-video-fl{
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
 }
 
 .button-ln-active{
     background-color: #9BA5B7;
     color: #F0F0F0;
     border: none;
+
+    cursor: pointer;
 }
 
 .languages_none{
@@ -293,5 +330,23 @@ section{
 
 .btn_home > button{
     background: none;
-    border: none;    
+    border: none;   
+    cursor: pointer; 
+}
+
+
+
+@media (max-width: 425px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr)); /* see notes below */
+        grid-gap: 1em;
+    }
+
+    .item_location{
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+    }
+    .buttonop{ font-size: 16px;}
 }
